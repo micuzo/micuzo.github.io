@@ -15,7 +15,7 @@ const changeScene = (newScene) => {
 };
 window.onload = () => {
     canvas.init();
-    changeScene(WaveformScene);
+    changeScene(CarouselScene);
     const dropdown = document.getElementById("scenes");
     dropdown.onchange = (event) => {
         if (dropdown.value == "Waveform") {
